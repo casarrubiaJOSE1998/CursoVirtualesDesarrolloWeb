@@ -1,0 +1,244 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    font-family: Arial, Helvetica, sans-serif;
+     
+}
+
+body{
+    
+    background-color: white;
+    
+}
+
+nav{
+    
+    height: 45px;
+    padding: 5px;
+    background-color:rgb(39, 31, 31);
+    text-align: center;
+     border: 2px solid white;
+    
+}
+
+nav ul{
+    list-style: none;
+    display: inline-block;
+    padding: 1px;
+
+}
+
+nav ul li{
+    float: left;
+    margin-top: 6px;
+ 
+}
+
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 16px;
+    
+}
+
+nav ul li a:hover{
+          background-color:#72716e;
+}
+
+img.izquierda{
+    padding: 6px;
+    float: left;
+    margin: auto;
+    height: 90px;
+    width: 90px;
+}
+
+.logo{
+    padding: 6px;
+    border: 5px;
+    position: relative;
+    height:  130px;
+  }
+
+header div ul{
+    list-style: none;
+    padding: 5px;
+}
+
+header div ul li{
+    float: right;
+    margin-top: 3px;
+
+}
+
+header div ul li img{
+    background: white;
+    padding: 15px;
+    float: right;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+
+}
+
+.derecha{
+    float: right;
+
+}
+
+div ul li img:hover{
+    background-color: red;
+
+}
+
+.logo{
+  padding:  10px;
+  border: 10px solid white;
+  position: relative;
+  height:  120px;
+}
+
+main{
+
+    height:  42px;
+    padding: 13px;
+    background-color: rgb(39, 31, 31);
+    text-align: center;
+    border: 1px solid white;
+    
+   
+}
+
+main ul{
+    list-style: none;
+    display: inline;
+    padding: 1px;
+
+}
+ main ul li{
+     float: right;
+     margin-top: 1px;
+ }
+
+ main ul li a{
+     color: white;
+     font-weight: bolder;
+     text-decoration: none;
+     font-size: 13px;
+     padding: 16px;
+
+ } 
+
+ main ul li a:hover {
+
+    background-color: #929fb3;
+
+ }
+
+ .banner ul{
+    display: flex;
+    padding: 0;
+  }
+  
+  .banner li{
+    width: 100%;
+    list-style: none;
+  }
+  
+  .banner img{
+    width: 100%
+  }
+  
+  .positioned {
+              position: relative;
+              top: 0px;
+              left: 0px;
+              background: whitesmoke;
+              border: 1px solid white;
+            width: 1325px;
+          height: 730px;
+          }
+  
+      .banner {
+        display: flex;
+        width: 1365px;
+        height: 720px;
+        background-color: rgb(207,232,220);
+        border: 2px solid rgb(79,185,227);
+        padding: 1px;
+        margin: 6px;
+        border-radius: 1px;
+  
+          background-size: 100%;
+          animation: banner 20s infinite alternate;
+          }
+  @keyframes banner{
+    0%, 20%{
+        background-image: url(/img/jose.jpg);
+        opacity: 1;
+    }
+  
+    0%, 30%{
+        background-image: url(/img/cursos.jpg);
+        opacity: 1;
+    }
+  
+    30%, 50%{
+        background-image: url(/img/gratis.jpg);
+        opacity: 1;
+    }
+  
+    55%, 75%{
+        background-image: url(/img/virtual.jpg)
+    }
+  
+    80%, 100%{
+        background-image: url(/img/cursos.jpg);
+        opacity: 1;
+    }
+  }
+  
+  .sticky {
+              position: sticky;
+              top: 60px;
+              left: 40px;
+              height: 330px;
+              background-color: #72716e;
+              border: 1px solid rgb(51, 43, 28);
+              padding: 4px;
+          }
+  
+      .controls{
+      width: 68%;
+      background: #09E8E8;
+      padding: 10px;
+      border-radius: 19px;
+      margin-bottom: 30px;
+      border: 1px solid #1f53c5;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 13px;
+      color: black;
+  }
+  
+      .icon{
+        padding: 15px;
+        margin: auto;
+        height: 90px;
+        width: 90px;
+
+  
+      }
+      footer{
+          background:rgb(39, 31, 31);
+          color: white;
+          text-align: center;
+          height: 30px;
+          width: 1215px;
+          line-height: 30px;
+      }
+  
+
